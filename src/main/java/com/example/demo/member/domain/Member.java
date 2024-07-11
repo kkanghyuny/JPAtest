@@ -1,5 +1,6 @@
 package com.example.demo.member.domain;
 
+import com.example.demo.member.exception.InvalidNicknameLengthException;
 import com.example.demo.team.domain.Team;
 
 import jakarta.persistence.Column;
@@ -36,8 +37,7 @@ public class Member {
 
 	public Member(String name, String email, Team team) {
 		if (!validNameLength(name)) {
-			// throws new InvalidicknameLengthException;
-			return;
+			throw new InvalidNicknameLengthException();
 		}
 
 		this.name = name;
@@ -53,8 +53,7 @@ public class Member {
 
 	public void changeName(String name) {
 		if (!validNameLength(name)) {
-			// throws new InvalidNicknameLengthException;
-			return;
+			throw new InvalidNicknameLengthException();
 		}
 
 		this.name = name;
@@ -62,9 +61,9 @@ public class Member {
 
 	private boolean validNameLength(String name) {
 		if (name.length() >= 5 && name.length() <= 10) {
-			return false;
+			return true;
 		}
-		return true;
+		return false;
 	}
 
 }
