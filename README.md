@@ -83,7 +83,7 @@ https://i11a509.p.ssafy.io
 
 ## Javadoc
 
-👉🏻[Planet Rush API Java Docs](https://i11a509.p.ssafy.io)
+👉🏻[Planet Rush API Java Docs](https://simhani1.github.io/temp/javadoc/)
 
 ## Author
 
