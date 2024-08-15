@@ -1,9 +1,3 @@
-# README.md 파일 생성
-
-README.md라는 이름의 새 파일을 생성하고, 이전에 제공한 내용을 그대로 복사하여 붙여넣으세요.
-
-파일 내용:
-
 <h1 align="center">Welcome to Planet Rush 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
