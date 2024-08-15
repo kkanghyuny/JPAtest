@@ -56,8 +56,7 @@ https://i11a509.p.ssafy.io
 - 행성(챌린지) 생성 및 행성 커스텀
 - 챌린지 참여도로 랭킹 산정
 - 인증 사진 업로드 및 AI로 유사도 검증
-- 사용자 통계 및 성과 분석
-- 
+- 카테고리별 사용자 통계 분석
 - 매주 인기 키워드 분석
 
 ## 개발 환경
@@ -113,7 +112,9 @@ https://i11a509.p.ssafy.io
 * Github: [@kkanghyuny](https://github.com/kkanghyuny)
 
 ## 🤝 기여하기
-이슈와 기능 요청은 언제나 환영합니다!<br />
+이슈와 기능 요청은 언제나 환영합니다!
+
+[issues page](https://github.com/simhani1/PlanetRush/issues)<br />
 
 ## 📝 라이선스
 Copyright © 2024 F1T5. [ide05484](https://github.com/ide05484). [gyungmean](https://github.com/gyungmean). [justice-7](https://github.com/justice-7). [simhani1](https://github.com/simhani1). [AhnHongchan](https://github.com/AhnHongchan). [kkanghyuny](https://github.com/kkanghyuny) <br />
